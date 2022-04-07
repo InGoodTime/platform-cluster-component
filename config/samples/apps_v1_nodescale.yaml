@@ -1,0 +1,6 @@
+apiVersion: apps.linxs.com/v1
+kind: NodeScale
+metadata:
+  name: nodescale-sample
+spec:
+  # TODO(user): Add fields here

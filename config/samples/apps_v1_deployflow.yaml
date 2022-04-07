@@ -1,0 +1,6 @@
+apiVersion: apps.linxs.com/v1
+kind: DeployFlow
+metadata:
+  name: deployflow-sample
+spec:
+  # TODO(user): Add fields here

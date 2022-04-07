@@ -1,0 +1,46 @@
+domain: linxs.com
+layout:
+- go.kubebuilder.io/v3
+projectName: platform-control-plane
+repo: linxs.com/test-platform
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: linxs.com
+  group: apps
+  kind: CaseRunner
+  path: linxs.com/test-platform/api/v1
+  version: v1
+  webhooks:
+    defaulting: true
+    validation: true
+    webhookVersion: v1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: linxs.com
+  group: apps
+  kind: NodeScale
+  path: linxs.com/test-platform/api/v1
+  version: v1
+  webhooks:
+    defaulting: true
+    validation: true
+    webhookVersion: v1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: linxs.com
+  group: apps
+  kind: DeployFlow
+  path: linxs.com/test-platform/api/v1
+  version: v1
+  webhooks:
+    defaulting: true
+    validation: true
+    webhookVersion: v1
+version: "3"

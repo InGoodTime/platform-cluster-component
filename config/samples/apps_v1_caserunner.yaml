@@ -1,0 +1,6 @@
+apiVersion: apps.linxs.com/v1
+kind: CaseRunner
+metadata:
+  name: caserunner-sample
+spec:
+  # TODO(user): Add fields here
